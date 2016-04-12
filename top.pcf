@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon May 11 13:57:00 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "HS" LOCATE = SITE "T4" LEVEL 1;
+COMP "VS" LOCATE = SITE "U3" LEVEL 1;
+COMP "OutBlue<0>" LOCATE = SITE "U5" LEVEL 1;
+COMP "OutBlue<1>" LOCATE = SITE "U4" LEVEL 1;
+COMP "mclk" LOCATE = SITE "B8" LEVEL 1;
+COMP "OutRed<0>" LOCATE = SITE "R9" LEVEL 1;
+COMP "OutRed<1>" LOCATE = SITE "T8" LEVEL 1;
+COMP "OutRed<2>" LOCATE = SITE "R8" LEVEL 1;
+COMP "OutGreen<0>" LOCATE = SITE "N8" LEVEL 1;
+COMP "OutGreen<1>" LOCATE = SITE "P8" LEVEL 1;
+COMP "OutGreen<2>" LOCATE = SITE "P6" LEVEL 1;
+NET "mclk_BUFGP/IBUFG" BEL "mclk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
